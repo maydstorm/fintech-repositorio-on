@@ -1,0 +1,53 @@
+:root {
+  --color-light: #cf9df1;
+}
+
+.inicio,
+.navbar,
+footer {
+  background-color: #230661;
+}
+
+.principal {
+  margin: 5% 30%;
+}
+
+.senha {
+  color: var(--color-light);
+  margin-left: 68%;
+  margin-top: 10%;
+}
+
+.form_container {
+  margin: 0 20%;
+}
+
+.btn {
+  background-color: var(--color-light);
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+span {
+  color: var(--color-light);
+  margin-left: 40%;
+}
+
+/*Página home*/
+
+.img-200 {
+  width: 200px;
+}
+
+.img-100 {
+  width: 100px;
+}
+
+.img-50 {
+  width: 50px;
+}
+
+.border-menu {
+  background-color: #d9d9d9;
+}
