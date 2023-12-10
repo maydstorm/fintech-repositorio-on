@@ -4,8 +4,8 @@
 
 .inicio,
 .navbar,
-footer {
-  background-color: #230661;
+.my-footer {
+  background-color: #23095a;
 }
 
 .principal {
@@ -24,9 +24,6 @@ footer {
 
 .btn {
   background-color: var(--color-light);
-  width: 30%;
-  margin-left: 35%;
-  margin-top: 5%;
 }
 
 span {
@@ -36,18 +33,28 @@ span {
 
 /*Página home*/
 
-.img-200 {
-  width: 200px;
+.img-20 {
+  width: 20%;
 }
 
-.img-100 {
-  width: 100px;
+.img-10 {
+  width: 3rem;
 }
 
-.img-50 {
-  width: 50px;
-}
-
-.border-menu {
+.card {
   background-color: #d9d9d9;
+}
+
+@media (max-width: 1023px) {
+  .row > * {
+    width: 50%;
+    max-width: 100%;
+  }
+  .img-20 {
+    width: 50%;
+  }
+
+  .btn {
+    --bs-btn-font-size: 0.6rem;
+  }
 }
