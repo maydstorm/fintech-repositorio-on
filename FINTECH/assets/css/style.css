@@ -2,6 +2,10 @@
   --color-light: #cf9df1;
 }
 
+body {
+  font-family: Poppins, sans-serif;
+}
+
 .navbar,
 .my-footer {
   background-color: #23095a;
