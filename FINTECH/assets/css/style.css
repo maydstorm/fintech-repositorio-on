@@ -2,36 +2,14 @@
   --color-light: #cf9df1;
 }
 
-.inicio,
 .navbar,
 .my-footer {
   background-color: #23095a;
 }
 
-.principal {
-  margin: 5% 30%;
-}
-
-.senha {
-  color: var(--color-light);
-  margin-left: 68%;
-  margin-top: 10%;
-}
-
-.form_container {
-  margin: 0 20%;
-}
-
 .btn {
   background-color: var(--color-light);
 }
-
-span {
-  color: var(--color-light);
-  margin-left: 40%;
-}
-
-/*Página home*/
 
 .img-20 {
   width: 20%;
